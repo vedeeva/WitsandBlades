@@ -1,0 +1,55 @@
+.bg-blue{
+    background-color:#111820;
+}
+.bg-black {
+    background-color:#000000;
+}
+.mt-custom{
+    margin-top: 100px !important;
+}
+.bg-purple{
+    background-color: rgb(14, 8, 22);
+}
+.bottom-center {
+    position: absolute;
+    bottom: 8px;
+    right: 30px;
+}
+.h6 {
+    color: rgb(181, 181, 250)
+}
+.logo {
+    height: 50px;
+    width:  60px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.headline{
+    font-family: 'MedievalSharp', cursive;
+}
+.row{
+    font-family: 'Oswald', sans-serif;
+}
+.text{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-family: 'MedievalSharp', cursive;
+    
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(15, 10, 61);
+  }
+  
+  .col:hover .overlay {
+    opacity: 0.5;
+  }
